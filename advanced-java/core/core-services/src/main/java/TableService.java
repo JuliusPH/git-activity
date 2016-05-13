@@ -8,7 +8,6 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import java.util.Scanner;
 import java.util.TreeMap;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -18,7 +17,6 @@ public class TableService{
 	private TableModel tableModel = new TableModel();
 	private File tableFile;
 	private HashSet<String> keySet = new HashSet<String>();
-	private Random r = new Random();
 	private List<LinkedHashMap<String, String>> tempTable = new ArrayList<LinkedHashMap<String, String>>();
 
 	public void loadFile(File tableFile){
